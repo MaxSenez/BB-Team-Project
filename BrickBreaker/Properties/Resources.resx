@@ -175,8 +175,22 @@
   <data name="HSBackSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HSBackSelected.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="life" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\life.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="life" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAALiMAAC4jAXilP3YAAAIrSURBVFhH7Ze/axRBFMefotjbpFQRIYUigmmi4o/bFLEU
+        0UaUdIY0sRC1EqwEsYtop6DEf8XKQgKKJGW0S0A0kEiIn+/szLi792SP5Dib/XKf23kzb/Z9dzPZ27Gm
+        CrPejtlGG4fNjscpQYq9PIcrYL/hRpiJjsD5shmEiSmSdtp4TNE58hOKvTyHAuwWZF2ENTgbosFNgIpa
+        hYFN3FShqk4AA8HIUcDMucYkl2mzsc04V0fFzRyP62aTpNc1W64B3aLiO9w3e1id9C/umt3ZivN0JJ5p
+        5njcM3vA3S50xyM9XYmbPEpkQivWHRwRG52JSGci0ZlIdCYSnYlEMLHd6Bw12zKxBMuJVbNvHL3kYbEK
+        uR4syUTmFfBjf4m2N3lYXIBa3dx4qwBdHvzNareE17sq4esdHFCApv6HiUXYp0YUbzpXGfAmD4tpqJto
+        ChPjDCwkVuBDuXi9E7bxCfK5Ijp/q4k8uA7j8MTsObFXpI1nUCvo0aceaOAnnFQHesGHPq9IG7ryvqJN
+        +nQN9Pp/JkSlFkZt4jTwb1oTJt6Q7BVp4zXkYqwt7dT6GEiY0GIKewzBxOJL+eTLBT/zpH1UyYmERfgD
+        tNbGdLLdChP5ap6qA2HiK3E28ZH4Nv0pL6E/7SnYs5KJZEBaLp/72QQorhlgR5f3uHvWe3hZNrMwsUKh
+        qgnFoTjbQpuHCRiajsVjVZjQA0zvIgnFwcSvkFHTITgI+nXYr46/MvsD4v9mtk5IPZ4AAAAASUVORK5C
+        YII=
+</value>
   </data>
   <data name="MenuScreenBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuScreenBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

@@ -201,94 +201,154 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\life.png" />
+    <EmbeddedResource Include="Resources\life.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\buttonPressSelect.jpg" />
+    <EmbeddedResource Include="Resources\buttonPressSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pressAnyButton.jpg" />
+    <EmbeddedResource Include="Resources\pressAnyButton.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\HighscoreScreenBG.jpg" />
+    <EmbeddedResource Include="Resources\HighscoreScreenBG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MenuScreenBG.jpg" />
+    <EmbeddedResource Include="Resources\MenuScreenBG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ModeScreenBG.jpg" />
+    <EmbeddedResource Include="Resources\ModeScreenBG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\PausedScreenOverlay.png" />
+    <EmbeddedResource Include="Resources\PausedScreenOverlay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\startScreenBG.jpg" />
+    <EmbeddedResource Include="Resources\startScreenBG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GM1Player.jpg" />
+    <EmbeddedResource Include="Resources\GM1Player.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GM1PlayerSelect.jpg" />
+    <EmbeddedResource Include="Resources\GM1PlayerSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GM2Player.jpg" />
+    <EmbeddedResource Include="Resources\GM2Player.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GM2PlayerSelect.jpg" />
+    <EmbeddedResource Include="Resources\GM2PlayerSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GMBack.jpg" />
+    <EmbeddedResource Include="Resources\GMBack.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GMBackSelect.jpg" />
+    <EmbeddedResource Include="Resources\GMBackSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GSContinue.jpg" />
+    <EmbeddedResource Include="Resources\GSContinue.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GSContinueSelect.jpg" />
+    <EmbeddedResource Include="Resources\GSContinueSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GSQuit.jpg" />
+    <EmbeddedResource Include="Resources\GSQuit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GSQuitSelect.jpg" />
+    <EmbeddedResource Include="Resources\GSQuitSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\HSBackSelected.jpg" />
+    <EmbeddedResource Include="Resources\HSBackSelected.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMExit.jpg" />
+    <EmbeddedResource Include="Resources\MMExit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMExitSelect.jpg" />
+    <EmbeddedResource Include="Resources\MMExitSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMHighscore.jpg" />
+    <EmbeddedResource Include="Resources\MMHighscore.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMHighscoreSelect.jpg" />
+    <EmbeddedResource Include="Resources\MMHighscoreSelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMMainMenu.jpg" />
+    <EmbeddedResource Include="Resources\MMMainMenu.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMPlay.jpg" />
+    <EmbeddedResource Include="Resources\MMPlay.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\MMPlaySelect.jpg" />
+    <EmbeddedResource Include="Resources\MMPlaySelect.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\break1.png" />
+    <EmbeddedResource Include="Resources\break1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\break2.png" />
+    <EmbeddedResource Include="Resources\break2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\break3.png" />
+    <EmbeddedResource Include="Resources\break3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\break4.png" />
+    <EmbeddedResource Include="Resources\break4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
