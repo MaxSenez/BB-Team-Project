@@ -59,7 +59,6 @@ namespace BrickBreaker
             //
             //Adding Labels to Label list for easy management
             //
-            labels.Add(titleLabel);
             labels.Add(playLabel);
             labels.Add(highscoreLabel);
             labels.Add(exitLabel);
@@ -177,6 +176,11 @@ namespace BrickBreaker
             else if (index >= labels.Count)
                 index = labels.Count - 1;
             return labels[index];
+
+        }
+
+        private void highscore_Click_1(object sender, EventArgs e)
+        {
 
         }
     }

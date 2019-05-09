@@ -46,11 +46,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
-
   <PropertyGroup>
     <StartupObject>
     </StartupObject>
@@ -75,6 +73,12 @@
     <Compile Include="Ball.cs" />
     <Compile Include="Block.cs" />
     <Compile Include="highscore.cs" />
+    <Compile Include="HighscoreScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HighscoreScreen.Designer.cs">
+      <DependentUpon>HighscoreScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Paddle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -124,6 +128,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HighscoreScreen.resx">
+      <DependentUpon>HighscoreScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PauseScreen.resx">
       <DependentUpon>PauseScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,7 +159,9 @@
     <EmbeddedResource Include="Screens\WinScreen.resx">
       <DependentUpon>WinScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="app.manifest" />
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -181,21 +190,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Titles\negitive.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Screens\startScreenBG.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Titles\pressAnyButton.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Objects\brickWall.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Objects\life.png" />
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="WMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -207,7 +201,94 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\Break\" />
+    <EmbeddedResource Include="Resources\life.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonPressSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pressAnyButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HighscoreScreenBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuScreenBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ModeScreenBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PausedScreenOverlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startScreenBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GM1Player.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GM1PlayerSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GM2Player.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GM2PlayerSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GMBack.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GMBackSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GSContinue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GSContinueSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GSQuit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GSQuitSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HSBackSelected.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMExit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMExitSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMHighscore.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMHighscoreSelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMMainMenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMPlay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MMPlaySelect.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\break1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\break2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\break3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\break4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

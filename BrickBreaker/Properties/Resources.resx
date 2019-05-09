@@ -124,4 +124,94 @@
   <data name="Tandysoft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tandysoft.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="break1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\break1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="break2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\break2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="break3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\break3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="break4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\break4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonPressSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonPressSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GM1Player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GM1Player.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GM1PlayerSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GM1PlayerSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GM2Player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GM2Player.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GM2PlayerSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GM2PlayerSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GMBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GMBack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GMBackSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GMBackSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GSContinue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GSContinue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GSContinueSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GSContinueSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GSQuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GSQuit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GSQuitSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GSQuitSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HighscoreScreenBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HighscoreScreenBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HSBackSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HSBackSelected.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\life.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuScreenBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuScreenBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMExit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMExitSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMExitSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMHighscore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMHighscore.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMHighscoreSelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMHighscoreSelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMMainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMMainMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMPlay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MMPlaySelect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMPlaySelect.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ModeScreenBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ModeScreenBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PausedScreenOverlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PausedScreenOverlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pressAnyButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pressAnyButton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startScreenBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\startScreenBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

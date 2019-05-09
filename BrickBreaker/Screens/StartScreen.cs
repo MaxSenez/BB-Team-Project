@@ -32,7 +32,7 @@ namespace BrickBreaker
         {
             if (i % 2 == 0)
             {
-                anyButtonPB.Image = new Bitmap(Properties.Resources.negitive);
+                anyButtonPB.Image = new Bitmap(Properties.Resources.buttonPressSelect);
             }
             else
             {
