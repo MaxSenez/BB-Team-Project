@@ -32,7 +32,6 @@
             this.gameTimer = new System.Windows.Forms.Timer(this.components);
 
             this.life5Output = new System.Windows.Forms.Label();
-            this.spacer = new System.Windows.Forms.Label();
             this.life1Output = new System.Windows.Forms.Label();
             this.life2Output = new System.Windows.Forms.Label();
             this.life3Output = new System.Windows.Forms.Label();
@@ -52,7 +51,7 @@
             // life5Output
             // 
             this.life5Output.BackColor = System.Drawing.Color.Transparent;
-           
+            this.life5Output.Image = global::BrickBreaker.Properties.Resources.life;
             this.life5Output.Location = new System.Drawing.Point(471, 792);
             this.life5Output.Name = "life5Output";
             this.life5Output.Size = new System.Drawing.Size(33, 33);
@@ -70,7 +69,11 @@
             // life1Output
             // 
             this.life1Output.BackColor = System.Drawing.Color.Transparent;
-            
+            //
+            // life1Output
+            // 
+            this.life1Output.BackColor = System.Drawing.Color.Transparent;
+            this.life1Output.Image = global::BrickBreaker.Properties.Resources.life;
             this.life1Output.Location = new System.Drawing.Point(692, 792);
             this.life1Output.Name = "life1Output";
             this.life1Output.Size = new System.Drawing.Size(33, 33);
@@ -79,7 +82,7 @@
             // life2Output
             // 
             this.life2Output.BackColor = System.Drawing.Color.Transparent;
-           
+            this.life2Output.Image = global::BrickBreaker.Properties.Resources.life;
             this.life2Output.Location = new System.Drawing.Point(637, 792);
             this.life2Output.Name = "life2Output";
             this.life2Output.Size = new System.Drawing.Size(33, 33);
@@ -88,7 +91,7 @@
             // life3Output
             // 
             this.life3Output.BackColor = System.Drawing.Color.Transparent;
-            
+            this.life3Output.Image = global::BrickBreaker.Properties.Resources.life;
             this.life3Output.Location = new System.Drawing.Point(584, 792);
             this.life3Output.Name = "life3Output";
             this.life3Output.Size = new System.Drawing.Size(33, 33);
@@ -97,7 +100,7 @@
             // life4Output
             // 
             this.life4Output.BackColor = System.Drawing.Color.Transparent;
-            
+            this.life4Output.Image = global::BrickBreaker.Properties.Resources.life;
             this.life4Output.Location = new System.Drawing.Point(527, 792);
             this.life4Output.Name = "life4Output";
             this.life4Output.Size = new System.Drawing.Size(33, 33);
@@ -128,7 +131,7 @@
             // 
             // GameScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.highscoreLabel);
@@ -137,13 +140,15 @@
             this.Controls.Add(this.life3Output);
             this.Controls.Add(this.life2Output);
             this.Controls.Add(this.life1Output);
-            this.Controls.Add(this.spacer);
             this.Controls.Add(this.life5Output);
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GameScreen";
             this.Size = new System.Drawing.Size(1067, 677);
-
+            this.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.Name = "GameScreen";
+            this.Size = new System.Drawing.Size(1200, 900);
+            this.Load += new System.EventHandler(this.GameScreen_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.GameScreen_Paint);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GameScreen_KeyUp);
             this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.GameScreen_PreviewKeyDown);
@@ -156,7 +161,6 @@
         private System.Windows.Forms.Timer gameTimer;
 
         private System.Windows.Forms.Label life5Output;
-        private System.Windows.Forms.Label spacer;
         private System.Windows.Forms.Label life1Output;
         private System.Windows.Forms.Label life2Output;
         private System.Windows.Forms.Label life3Output;
